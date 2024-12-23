@@ -30,4 +30,23 @@ console.log('symbolinpt', id===anotherId)
 
 
 
-// 2. reftype (non
+// 2. reftype (non -primitive)
+
+const heros = ["shalktiman", "nagraz", " Doga"] // array
+
+// object
+
+ let myobj= {
+    name:"Amar",
+    age:23
+
+ }
+
+ // functions
+
+ const myfunction =  function(){
+    console.log("hello function here")
+ }
+
+ //chek type
+ console.log(typeof myfunction)
